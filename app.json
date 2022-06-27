@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/news-detail/news-detail",
+    "pages/gongzuorenyuan/list",
+    "pages/gongzuorenyuan/add-or-update",
+    "pages/gongzuorenyuan/detail",
+    "pages/laoren/list",
+    "pages/laoren/add-or-update",
+    "pages/laoren/detail",
+    "pages/laorenxinxi/list",
+    "pages/laorenxinxi/add-or-update",
+    "pages/laorenxinxi/detail",
+    "pages/tijianxinxi/list",
+    "pages/tijianxinxi/add-or-update",
+    "pages/tijianxinxi/detail",
+    "pages/xuqiuxinxi/list",
+    "pages/xuqiuxinxi/add-or-update",
+    "pages/xuqiuxinxi/detail",
+    "pages/xuqiugenjin/list",
+    "pages/xuqiugenjin/add-or-update",
+    "pages/xuqiugenjin/detail",
+    "pages/canyinxinxi/list",
+    "pages/canyinxinxi/add-or-update",
+    "pages/canyinxinxi/detail",
+    "pages/diancanxinxi/list",
+    "pages/diancanxinxi/add-or-update",
+    "pages/diancanxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discusscanyinxinxi/list",
+    "pages/discusscanyinxinxi/add-or-update",
+    "pages/discusscanyinxinxi/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "居家养老服务小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FF0101",
+    "selectedColor": "#FF0000",
+    "borderStyle": "white",
+    "backgroundColor": "#00CC00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tijianxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "体检信息"
+      },
+      {
+        "pagePath": "pages/xuqiugenjin/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "需求跟进"
+      },
+      {
+        "pagePath": "pages/diancanxinxi/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "点餐信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  },
+  "sitemapLocation": "sitemap.json"
+}
